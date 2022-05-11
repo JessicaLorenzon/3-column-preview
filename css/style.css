@@ -83,6 +83,13 @@ body {
 
 }
 
+.cards button:hover {
+    color: var(--neutral-200);
+    transition: color .2s;
+    border: 1px solid var(--neutral-200);
+    background-color: transparent
+}
+
 .card__sedans button {
     color: var(--primary-100);
 }
@@ -95,10 +102,3 @@ body {
     color: var(--primary-300);
 }
 
-
-.cards button:hover {
-    color: var(--neutral-200);
-    transition: color .2s;
-    border: 1px solid var(--neutral-200);
-    background-color: transparent
-}
