@@ -96,7 +96,7 @@ body {
 }
 
 
-button:hover {
+.cards button:hover {
     color: var(--neutral-200);
     transition: color .2s;
     border: 1px solid var(--neutral-200);
